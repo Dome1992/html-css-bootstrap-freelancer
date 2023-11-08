@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+
+header{
+    background-color: rgb(13, 13, 66);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    width: 200px;
+    border-radius: 5px;
+}
+#prima_row{
+    background-color: aqua;
+    min-height: 300px;
+}
+
+#first_h1{
+    color: wheat;
+}
+#second_h1{
+    color:rgb(13, 13, 66) ;
+}
+#second_hr{
+    border: 2px solid red;
+}
+#_col-6{
+    text-align: center;
+}
