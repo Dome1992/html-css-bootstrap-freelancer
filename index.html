@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
@@ -28,9 +29,9 @@
                 <div class="col-6" id="_col">
                     <img src="img/avatar.svg" alt="">
                     <h1 id="first_h1">START BOOTSTRAP</h1>
-                    <span>Graphic Artist -</span>
-                    <span>Web Designer -</span>
-                    <span>Illustrator</span>
+                    <span class="span_2">Graphic Artist -</span>
+                    <span class="span_2">Web Designer -</span>
+                    <span class="span_2">Illustrator</span>
                 </div>
             </div>
         </div>
@@ -50,23 +51,39 @@
                 <div class="col-7" id="_col">
                     <div class="row justify-content-around">
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <img src="img/cabin.png" alt="">
+                            <div class="cards">
+                                <img src="img/cabin.png" alt="">
+                            </div>
                         </div>
+
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <img src="img/cake.png" alt="">
+                            <div class="cards">
+                                <img src="img/cake.png" alt="">
+                            </div>
                         </div>
+
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <img src="img/circus.png" alt="">
+                            <div class="cards">
+                                <img src="img/circus.png" alt="">
+                            </div>
                         </div>
               
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <img src="img/game.png" alt="">
+                            <div class="cards">
+                                <img src="img/game.png" alt="">
+                            </div>
                         </div>
+
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <img src="img/safe.png" alt="">
+                            <div class="cards">
+                                <img src="img/safe.png" alt="">
+                            </div>
                         </div>
+
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <img src="img/submarine.png" alt="">
+                            <div class="cards">
+                                <img src="img/submarine.png" alt="">
+                            </div>
                         </div>
                     
                     </div>
@@ -82,38 +99,103 @@
             <div class="row justify-content-center">
                 <div class="col-7" id="_col">
                     <div class="row justify-content-around">
-
-            <div class="row justify-content-center align-items-center">
-                <div class="col-6" id="_col-6">
-                     <h1>ABOUT</h1>
-                </div>
-            </div>
+                        <div class="col-6">
+                            <h1 id="first_h1">ABOUT</h1>
+                        </div>
+                <!--<div class="row justify-content-center align-items-center">
+                    <div class="col-6" id="_col-6">
+                        <h1>ABOUT</h1>
+                    </div>
+                </div>-->
 
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-6 col-lg-6  gy-3">
+                   <span class="span_2">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ipsa error dicta minima rerum eaque tenetur, ex omnis officiis eveniet nesciunt autem voluptatibus, similique ab alias recusandae. Ut, eum. Quasi!
+                    </span> 
                 </div>
-                <div class=" col-sm-12 col-md-6 col-lg-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium molestias quod dolore sit dicta eum aut, possimus omnis repellendus totam cupiditate natus quibusdam ullam praesentium quidem esse distinctio et.
+                <div class=" col-sm-12 col-md-6 col-lg-6 gy-3">
+                    <span class="span_2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium molestias quod dolore sit dicta eum aut, possimus omnis repellendus totam cupiditate natus quibusdam ullam praesentium quidem esse distinctio et.
+                    </span>
                 </div>
             </div>
             <div class="row justify-content-center align-items-center">
-                <div class="col-6" id="_col-6">
+                <div class="col-6" id="_col">
                     <a href=""><span>Download</span></a>
                 </div>
             </div>
 
+           
+        </div>
+
+        
+    </section>
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-6" id="_col">
+                        <h1 id="second_h1">CONTACT ME</h1>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-7">
+                        <ul>
+                            <li><span>Name</span></li>
+                            <hr>
+                            <li><span>Email Address</span></li>
+                            <hr>
+                            <li><span>Phone Number</span></li>
+                            <hr>
+                            <li><span>Message</span></li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li>
+                            <hr>
+                            <button type="button" class="btn btn-success">Send</button>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            
-        </div>
-        
-
-    </section>
 
     <footer>
+        <div class="footer_top">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12" id="_col">
+                        <div class="row justify-content-around">
 
+                            <div class="col-sm-10 col-lg-2 gy-3">
+                                <h2>LOCATION</h2>
+                                <p>2215 John Daniel Drive Clark, MO 54243</p>
+                            </div>
+
+                            <div class="col-sm-10  col-lg-2 gy-3">
+                                <H2>AROUND THE WEB</H2>
+                                <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-google-plus-g" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                            </div>
+
+                            <div class="col-sm-10  col-lg-2 gy-3">
+                                <h2>ABOUT FREELANCER</h2>
+                                <p>Freaalance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+
+        </div>
     </footer>
+
+    <!-- inlusione javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

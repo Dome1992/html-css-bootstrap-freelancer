@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color:white;
+    
 }
 .row{
     padding:15px;
@@ -30,12 +30,46 @@ img{
 #_container-acqua{
     background-color: rgb(0, 212, 212);
 }
+#first_h1{
+    color: white;
+}
 #second_h1{
     color:rgb(13, 13, 66) ;
 }
-#second_hr{
-    border: 2px solid red;
+
+span{
+    color:rgb(13, 13, 66) ;
 }
+.span_2{
+    color: white;
+}
+
 #_col{
     text-align: center;
+}
+.cards{
+    padding-bottom: 10px;
+}
+ul{
+    list-style-type: none;
+    padding-top:10px;
+}
+.footer_top{
+    background-color: rgb(26, 26, 48);
+}
+h2{
+    color: white;
+    font-size: 20px;
+}
+p{
+    font-size: 12px;
+    color: white;
+}
+i{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 8px;
+    font-size: 12px;
 }
